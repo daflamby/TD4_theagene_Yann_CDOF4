@@ -1,0 +1,5 @@
+# Use the official PostgreSQL 14 image as a base image
+FROM postgres:14
+
+# Expose PostgreSQL port
+EXPOSE 5432
